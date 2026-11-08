@@ -1,0 +1,90 @@
+{
+  "kind": "match_result",
+  "match_seed": "313",
+  "num_deals": 10,
+  "agent1_name": "AriCommits / ShortDeckPLO5Bot (http://127.0.0.1:15008)",
+  "agent2_name": "Challenges Team / RandomBot (http://127.0.0.1:15009)",
+  "verdict": "CHOP",
+  "points": {
+    "agent1": 0.5,
+    "agent2": 0.5
+  },
+  "reason": "interval [-14.142, +21.942] includes 0",
+  "mean_bb_per_deal": 3.9,
+  "std_bb": 29.10975399720475,
+  "stderr_bb": 9.205312475835775,
+  "ci": [
+    -14.142412452638117,
+    21.942412452638116
+  ],
+  "chop_z": 1.96,
+  "half_totals_chips": {
+    "half1": {
+      "agent1": 63,
+      "agent2": -63
+    },
+    "half2": {
+      "agent1": 15,
+      "agent2": -15
+    }
+  },
+  "agent_stats": {
+    "agent1": [
+      {
+        "calls": 40,
+        "skipped_calls": 0,
+        "timed_out": false,
+        "errors": 0,
+        "forfeited": false,
+        "error_messages": [],
+        "time_seconds": 0.170418,
+        "wall_seconds": 0.210418
+      },
+      {
+        "calls": 27,
+        "skipped_calls": 0,
+        "timed_out": false,
+        "errors": 0,
+        "forfeited": false,
+        "error_messages": [],
+        "time_seconds": 0.068685,
+        "wall_seconds": 0.095685
+      }
+    ],
+    "agent2": [
+      {
+        "calls": 38,
+        "skipped_calls": 0,
+        "timed_out": false,
+        "errors": 0,
+        "forfeited": false,
+        "error_messages": [],
+        "time_seconds": 0.012853,
+        "wall_seconds": 0.050334
+      },
+      {
+        "calls": 26,
+        "skipped_calls": 0,
+        "timed_out": false,
+        "errors": 0,
+        "forfeited": false,
+        "error_messages": [],
+        "time_seconds": 0.002637,
+        "wall_seconds": 0.026796
+      }
+    ]
+  },
+  "paired_bb": [
+    11.0,
+    0.0,
+    38.0,
+    -20.0,
+    38.0,
+    40.5,
+    -35.5,
+    0.0,
+    -38.0,
+    5.0
+  ],
+  "elapsed_seconds": 0.384
+}

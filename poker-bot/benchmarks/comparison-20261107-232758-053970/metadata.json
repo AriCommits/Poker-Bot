@@ -1,0 +1,43 @@
+{
+  "baseline_commit": null,
+  "baseline_working_tree": true,
+  "baseline_sha256": "a2fc78dbaecbaaaa3910df67d0a6d88f5e8f956f660c6af6c0f045f18248eecd",
+  "candidate_sha256": "a2fc78dbaecbaaaa3910df67d0a6d88f5e8f956f660c6af6c0f045f18248eecd",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "seeds": [
+    601,
+    607
+  ],
+  "deals_per_half": 300,
+  "opponents": [
+    "random",
+    "always_pot"
+  ],
+  "command": [
+    "tools\\benchmark_changes.py",
+    "--baseline-working-tree",
+    "--candidate-opponent-model",
+    "--both-time-budget",
+    "--both-adaptive-sampling",
+    "--deals",
+    "300",
+    "--seeds",
+    "601",
+    "607",
+    "--opponents",
+    "random",
+    "always_pot"
+  ],
+  "candidate_opponent_model": true,
+  "candidate_time_budget": false,
+  "candidate_adaptive_sampling": false,
+  "both_time_budget": true,
+  "both_adaptive_sampling": true,
+  "candidate_disable_forced_raise": false,
+  "packages": {
+    "fastapi": "0.162.2",
+    "uvicorn": "0.54.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "baseline_commit": "b540f80a399ef96f353f66b12abdbfe3a63cae60",
+  "baseline_sha256": "8c76e378551c6e6da2def54838bfb1707176d6b549f96c49aadba22fb641f717",
+  "candidate_sha256": "2e68d2ded5faa4742456410d815bb014fbfb38ebd1a48c7c56cb53b4b9e7b61b",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "seeds": [
+    313
+  ],
+  "deals_per_half": 10,
+  "opponents": [
+    "random"
+  ],
+  "command": [
+    "tools\\benchmark_changes.py",
+    "--deals",
+    "10",
+    "--seeds",
+    "313",
+    "--opponents",
+    "random",
+    "--candidate-time-budget",
+    "--candidate-adaptive-sampling",
+    "--candidate-opponent-model",
+    "--candidate-disable-forced-raise",
+    "--candidate-table",
+    "data\\preflop_candidate.json"
+  ],
+  "candidate_opponent_model": true,
+  "candidate_time_budget": true,
+  "candidate_adaptive_sampling": true,
+  "candidate_disable_forced_raise": true,
+  "packages": {
+    "fastapi": "0.162.2",
+    "uvicorn": "0.54.0"
+  }
+}
